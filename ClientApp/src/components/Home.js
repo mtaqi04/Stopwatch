@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+const PointTarget = ReactPoint.PointTarget
+
 export class Home extends Component {
   static displayName = Home.name;
 
-    const PointTarget = ReactPoint.PointTarget
+    
 
 class AutoScalingText extends React.Component {
     state = {
