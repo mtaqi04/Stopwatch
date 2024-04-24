@@ -7,7 +7,7 @@ export class Home extends Component {
     return (
         <div id="wrapper">
             <div id="app"></div>
-            <button>Add me</button>
+            
         </div>
         
     );
