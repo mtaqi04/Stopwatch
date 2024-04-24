@@ -8,6 +8,7 @@ export class Home extends Component {
         <div id="wrapper">
             <div id="app"></div>
         </div>
+        <button>add me</button>
     );
   }
 }
