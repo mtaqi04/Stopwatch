@@ -5,9 +5,9 @@ export class Home extends Component {
 
   render() {
     return (
-      <div>
-        
-      </div>
+        <div id="wrapper">
+            <div id="app"></div>
+        </div>
     );
   }
 }
