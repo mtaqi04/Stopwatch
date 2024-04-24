@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 const PointTarget = ReactPoint.PointTarget
 
+export class Home extends Component {
+  static displayName = Home.name;
+
+
 class AutoScalingText extends React.Component {
     state = {
         scale: 1
@@ -276,3 +280,4 @@ ReactDOM.render(
     <Calculator />,
     document.getElementById('app')
 )
+}
