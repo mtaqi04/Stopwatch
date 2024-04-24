@@ -27,13 +27,6 @@ class AutoScalingText extends React.Component {
         }
     }
 
-export class Home extends Component {
-  static displayName = Home.name;
-
-    
-
-
-
     render() {
         const { scale } = this.state
 
@@ -283,4 +276,3 @@ ReactDOM.render(
     <Calculator />,
     document.getElementById('app')
 )
-}
